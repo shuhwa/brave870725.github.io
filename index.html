@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html >
+<head>
+  
+    <title>雙欄式網頁版型</title>
+    
+    <style >
+          *{
+            box-sizing:border-box;
+            width: 900px;
+            overflow: auto;
+            }         
+     header{            
+　         padding: 20px;
+           background-color: #425660;
+           } 
+     nav{
+         background-color: #20292F;
+         text-align: center;
+         padding: 5px;
+        }     
+    .content{
+        width: 900px;
+        height: 600px;
+        color: #FFF;
+        background-color: #849DAA;
+        margin: 0 auto;
+        overflow: auto;
+        }      
+    .aside {
+       width: 200px;
+       height: 600px;
+       background-color: #63808F;
+       padding:20px 10px;
+       float: left;
+        }
+    .section{
+       width:640px;
+       height: 600px;
+       background-color: #849DAA;
+       line-height: 1.5em;
+       padding: 20px;
+       float: right;
+       }
+    
+    footer{
+      padding:20px;
+      background-color: #425660;
+      clear: both;
+      }
+   
+    h1{
+     font-family: sans-serif, "微軟正黑體"; 
+     font-size: 18px; 
+     color: #FFF; 
+     text-align: center;
+     }
+        
+    </style> 
+              
+</head>
+
+<body> 
+    <header class="header" >
+     <h1> HEADER 標題 </h1>  
+    </header>  
+    <nav class="nav">
+    <h1> NAV 導覽列</h1>
+    </nav>
+     <div class="content">
+        <div class="aside">
+        ASIDE 側邊
+        </div>
+        <div section  class="section">
+        <h1>SECTION 區塊 </h1>
+        </div>
+    </div>   
+    <footer class="footer">
+        <h1>FOOTER</h1>
+    </footer>        
+</body>
+</html>
